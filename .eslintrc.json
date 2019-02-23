@@ -1,0 +1,52 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["react", "jsx-a11y", "import"],
+  "rules": {
+    "no-underscore-dangle": "off",
+    "no-use-before-define": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-filename-extension": "off",
+    "react/require-default-props": "off",
+    "import/named": "off",
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "off",
+    "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+    "no-console": "off",
+    "react/prefer-stateless-function": "off",
+    "react/sort-comp": "off",
+    "react/no-multi-comp": "off",
+    "max-len": "off",
+    "no-plusplus": "off",
+    "no-nested-ternary": "off",
+    "no-return-assign": "off",
+    "global-require": "off",
+    "class-methods-use-this": "off",
+    "camelcase": "off"
+  },
+  "globals": {
+    "$ReadOnly": false,
+    "$ReadOnlyArray": false,
+    "$Keys": false,
+    "$Shape": false,
+    "$Exact": false,
+    "$ObjMap": false,
+    "Class": false,
+    "React$Element": false,
+    "React$ComponentType": false,
+    "IntervalID": false,
+    "TimeoutID": false,
+    "fetch": false,
+    "__DEV__": false
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-plugin-root-import": {}
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  }
+}
