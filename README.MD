@@ -13,12 +13,15 @@ https://react-native.toys
 3. MobX : Best case using MobX
 4. No errors : Flow & eslint all passed
 
-### How to build
+### How to build and run
+
 ```shell
 $ git clone https://github.com/ifsnow/AppStoreToday.git
 $ cd AppStoreToday
 $ yarn install
-$ react-native run-ios
+$ cd ios && pod install
+or $ npx pod-install ios
+$ yarn ios
 ```
 
 ## Reasons for this work

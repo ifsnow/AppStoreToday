@@ -1,6 +1,7 @@
 /**
  * @format
- * @lint-ignore-every XPLATJSCOPYRIGHT1
+
+ * @flow strict-local
  */
 
 import { AppRegistry } from 'react-native';
