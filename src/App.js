@@ -4,7 +4,7 @@ import React, { PureComponent } from 'react';
 
 import {
   Provider,
-} from 'mobx-react/native';
+} from 'mobx-react';
 
 import {
   TodayScreen,
